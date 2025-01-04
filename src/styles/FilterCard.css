@@ -1,0 +1,150 @@
+/* Main container */
+.partner-cards-section {
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container */
+    padding: 40px 20px; /* Add space on the sides */
+    text-align: center;
+}
+
+/* Title styling */
+.partner-cards-title {
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    color:#ffffff;
+    margin-bottom: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Search and filter section */
+.search-container {
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.filter-options {
+    margin-bottom: 40px; /* Space below filter options */
+}
+
+.filter-dropdown {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Wrapper for cards */
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap */
+    justify-content: space-between; /* Space between cards */
+}
+
+/* Individual card styles */
+.partner-card {
+    background-color: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    flex: 0 1 calc(20% - 20px); /* 4 cards per row, accounting for space */
+    margin: 10px; /* Space around each card */
+    text-align: center; /* Center text in the card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation on hover */
+    height: 330px; /* Set a fixed height for each card */
+    padding: 7px 0px 0px 0px;
+    min-width: 240px;
+}
+
+/* Image styles */
+.partner-card-img {
+    width: 120px; /* Fixed width */
+    height: 70px; /* Fixed height for the image */
+    object-fit: cover; /* Cover the area without distortion */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+/* Card content styles */
+.card-content {
+    min-height: 120px; /* Consistent height for content */
+    display: flex; /* Flex to align items */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: space-between; /* Space out elements */
+    padding: 3px 10px;
+}
+
+/* Title styles */
+.partner-card-title {
+    font-size: 22px;
+    margin: 0px 0; /* Space above and below heading */
+    font-weight: 600;
+}
+
+.card-category {
+    display: block;
+    margin: 5px;
+    padding: 2px;
+}
+
+/* Divider styles */
+.card-divider {
+    width: 85%; /* Width of the horizontal line */
+    margin: 10px auto; /* Centered margin */
+}
+
+/* Location styles */
+.partner-card-location {
+    color: gray; /* Gray color for location text */
+    font-size: 13px; /* Font size for location text */
+    margin-bottom: 20px; /* Space below paragraph */
+}
+
+/* Link styles */
+.card-link {
+    display: block;
+    background-color: rgba(239, 240, 250, 0.6); /* Button-like anchor background */
+    color: #76788f;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 0px 0px 8px 8px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 100%; /* Takes full width of the card */
+    margin: 0; /* No margin to avoid spacing around */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+    display: flex; /* Animation on hover */
+}
+
+/* Hover effect for card link */
+.partner-card:hover .card-link {
+    background-color: #573ac2; /* Darken on hover */
+    color: white; /* Change text color on hover */
+}
+
+/* Responsive design */
+
+/* Two cards per row on tablets */
+@media (max-width: 768px) {
+    .partner-card {
+        flex: 0 1 calc(50% - 20px); /* Two cards per row */
+    }
+}
+
+/* One card per row on small screens */
+@media (max-width: 480px) {
+    .partner-card {
+        flex: 0 1 100%; /* Full width on small screens */
+    }
+}
