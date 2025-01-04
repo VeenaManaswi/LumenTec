@@ -23,14 +23,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
-  max-width: 1200px;
+  width: 40%;
+  max-width: 800px;
   height: 80%;
   /* background: rgba(255, 255, 255, 0.8);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
   border-radius: 12px; */
   overflow: hidden;
   border-radius: 25px;
+  margin-left:350px;
 }
 
 /* Box layout for left image and right form */
