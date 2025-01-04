@@ -10,7 +10,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;  Cover the entire screen */
   margin: 0;
-  font-family: 'Garamond', serif;
+  /* font-family: 'Garamond', serif; */
   display: flex;
   justify-content: center;
   align-items: center;

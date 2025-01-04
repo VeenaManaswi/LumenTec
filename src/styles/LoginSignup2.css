@@ -1,11 +1,11 @@
 /* Styling inspired by the provided reference */
 
-body {
+container1 {
     background-image: url('../images/invman3.jpg');
     background-repeat: no-repeat;
     background-size:cover; 
     margin: 40px auto 60px 80px;
-    font-family: Garamond, serif;
+    /* font-family: Garamond, serif; */
     display: flex;
     min-height: 100vh;
   }
