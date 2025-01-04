@@ -1,0 +1,108 @@
+/* Styling inspired by the provided reference */
+
+body {
+    background-image: url('../images/invman3.jpg');
+    background-repeat: no-repeat;
+    background-size:cover; 
+    margin: 40px auto 60px 80px;
+    font-family: Garamond, serif;
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: rgb(88, 87, 87);
+    color: rgb(0, 0, 0);
+    padding: 60px;
+    margin: 0 auto;
+    border: 1px solid whitesmoke;
+    border-radius: 18px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .logo-img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  .text-button {
+    background: none;
+    border: none;
+    color: #3498db;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .text-button:hover {
+    text-decoration: underline;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  p {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  
